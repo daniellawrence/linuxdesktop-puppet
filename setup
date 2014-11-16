@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get install ruby ruby-dev -y
+sudo gem install --verbose puppet r10k
+r10k puppetfile install
